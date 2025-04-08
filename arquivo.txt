@@ -60,3 +60,17 @@ Crie um repositório em dupla e simulem:
 • Pro Git Book (gratuito)
 • Git Cheatsheet
 • GitHub Docs
+
+Branch:
+Até agora tudo o que fizemos de alterações e mandamos de commit, foi na nossa main, que é aquela linha do tempo principal. Agora vou mostrar pra vocês como criamos uma branch e depois como que juntamos ela com o código que já está na main (lembrando que ela é uma linha cronológica adicional/alternativa a principal) E outra, a branch pode ser criada tanto para quando você for fazer uma alteração em um arquivo, quando para adicionar outro arquivo dentro do projeto ou mesmo excluir.
+Obs. Lembrem que eu estou aqui editando um arquivo markdown, porém isso tudo vale para qualquer tipo de arquivo com qualquer extensão
+
+Nesse caso vamos adicionar um novo arquivo para desenvolver a nossa feature Botão
+
+Então a primeira coisa que fazemos é git checkout -b "novo-botao", assim criando uma branch para ele Esse comando além de criar a branch já entra nela com o checkout, inclusive se olharmos agora aqui no meu VSCode, estamos dentro dela.
+
+Vou então criar o arquivo, criar o botão.md "aqui eu crio o botão"
+
+E agora fazemos o passo a passo que já sabemos, colocamos a nossa alteração em stagging com o git add . e commitamos com o git commit -m "novo botão"
+
+Para enviarmos agora que vai ser diferente. Vocês lembram que utilizávamos o git push orgin main né? Porém main era aquela branch principal. Agora então usaremos git push origin botao
