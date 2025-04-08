@@ -80,3 +80,16 @@ Agora o que precisamos fazer é ir para a nossa branch principal git checkout ma
 Pronto, agora tudo o que tinha de alteração na branch botao juntou com a main
 
 Para finalizar então, vamos jogar lá no Github isso tudo com o git push origin main
+
+
+Clone
+Como vocês podem baixar meu código?
+
+Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá esse botão Code, que quando você clica aparece um link:
+
+
+
+Você irá copiar esse link e levar ele lá pro nosso terminal
+
+O comando para puxar o projeto para a sua máquina é o git clone https://github.com/rafaballerini/GitTutorial.git
+
