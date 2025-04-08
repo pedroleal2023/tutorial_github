@@ -74,3 +74,9 @@ Vou então criar o arquivo, criar o botão.md "aqui eu crio o botão"
 E agora fazemos o passo a passo que já sabemos, colocamos a nossa alteração em stagging com o git add . e commitamos com o git commit -m "novo botão"
 
 Para enviarmos agora que vai ser diferente. Vocês lembram que utilizávamos o git push orgin main né? Porém main era aquela branch principal. Agora então usaremos git push origin botao
+
+Merge:
+Agora o que precisamos fazer é ir para a nossa branch principal git checkout main e lá faremos o merge com a branch botao que criamos, com git merge botao
+Pronto, agora tudo o que tinha de alteração na branch botao juntou com a main
+
+Para finalizar então, vamos jogar lá no Github isso tudo com o git push origin main
