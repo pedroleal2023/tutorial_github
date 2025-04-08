@@ -94,5 +94,12 @@ Você irá copiar esse link e levar ele lá pro nosso terminal
 O comando para puxar o projeto para a sua máquina é o git clone https://github.com/rafaballerini/GitTutorial.git
 
 Fork
-Mas Rafa quando eu fiz o clone do seu repositório ele não apareceu no meu Github. Existe a ferramenta fork, que é bem mais simples para fazer isso Você só precisa apertar nesse botão dentro do repositório e TCHANAM! Ele aparece automaticamente lá na sua conta:
+Mas quando eu fiz o clone do seu repositório ele não apareceu no meu Github. Existe a ferramenta fork, que é bem mais simples para fazer isso Você só precisa apertar nesse botão dentro do repositório e TCHANAM! Ele aparece automaticamente lá na sua conta:
+
+Colaboração e gerenciamento de repositório
+No entanto, há momentos em que faz mais sentido se concentrar no repositório Git. Por exemplo, talvez seja necessário ter uma boa visão do que sua equipe vem trabalhando ou copiar uma confirmação de um branch diferente ou apenas limpar suas confirmações de saída. O Visual Studio inclui recursos avançados de colaboração e navegação de repositório que eliminam a necessidade de usar outras ferramentas.
+
+Para ajudar você a focar no repositório Git, o Visual Studio tem uma janela do Repositório Git, que é uma exibição consolidada de todos os detalhes em seu repositório, incluindo branches locais e remotos e histórico de confirmações. É possível acessar essa janela diretamente no Git ou em Exibição na barra de menus ou na barra de status.
+
+
 
