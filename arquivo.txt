@@ -1,2 +1,62 @@
-Arquivo Inicial da Atividade sobre Github.
+Tutorial sobre Github:
 
+1. Introdução ao Git e GitHub/GitLab
+• Conceito de controle de versão
+• Diferença entre Git (local) e GitHub/GitLab (remoto)
+• Fluxo básico: Local Repo ↔ Remote Repo
+
+2. Pré-requisitos Técnicos
+• Git instalado: https://git-scm.com/
+• Conta no GitHub ou GitLab
+• Editor de texto (VSCode recomendado)
+
+3. Configuração Inicial do Git (10min)
+Verificar configurações:
+
+4. Criar um Repositório no GitHub/GitLab
+ 4.1. Acessar GitHub/GitLab
+ 4.2. Criar novo repositório:
+  o Nome: aula-git
+  o Marcar como público ou privado
+  o NÃO inicializar com README (para simular clone)
+
+5. Clonar o Repositório
+
+6. Comandos Básicos de Versionamento
+Adicionar arquivos e comitar:
+Fazer push para o repositório remoto:
+Criar novos arquivos e versionar:
+
+7. Branches e Merge (com conflito proposital)
+Criar nova branch:
+Editar index.js na branch nova:
+Voltar para a main e modificar o mesmo arquivo:
+Tentar fazer merge e gerar conflito:
+
+8. Resolvendo Merge Conflicts
+• Mostrar como o Git marca os conflitos com <<<<<<<, =======, >>>>>>>
+• Editar manualmente ou via VSCode
+• Após resolver:
+
+9. Rollback de Alterações
+Desfazer alterações locais (não comitadas):
+Resetar para um commit anterior (soft/hard):
+Reverter um commit já enviado (sem apagar):
+
+10. Dicas Finais e Boas Práticas
+• Commitar frequentemente
+• Usar mensagens de commit claras
+• Evitar push direto na main (usar Pull Requests)
+• Manter o repositório limpo e organizado
+
+11. Desafio para Fixação (opcional)
+Crie um repositório em dupla e simulem:
+• Desenvolvimento em duas branches
+• Geração de conflito
+• Resolução e merge
+• Reversão de um commit errado
+
+12. Material Complementar e Referências
+• Pro Git Book (gratuito)
+• Git Cheatsheet
+• GitHub Docs
